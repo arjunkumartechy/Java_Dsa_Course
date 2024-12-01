@@ -14,6 +14,7 @@ public class SpiralPattern {
                     System.out.print(n-(Math.min(Math.min(topDist,bottomDist),Math.min(leftDist,rightDist)))+" "); 
                 }
                 System.out.println();
+            
             } 
             int x = 10  ; // x is reference var in stack & 10 is the actual object stored in heap . x is pointing to 10  . 
             System.out.println(x);
