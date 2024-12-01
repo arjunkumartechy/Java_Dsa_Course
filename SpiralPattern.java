@@ -19,7 +19,6 @@ public class SpiralPattern {
             int x = 10  ; // x is reference var in stack & 10 is the actual object stored in heap . x is pointing to 10  . 
             System.out.println(x);
             // More than one ref vars can point to same object. change via one     
-
         }
     }
 }
